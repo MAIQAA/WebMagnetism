@@ -2,14 +2,17 @@ import { GoArrowUpRight } from "react-icons/go";
 const HeroSection = () => {
   return (
     <div className="relative text-center pt-36 px-10 bg-custom-gradient-hero text-white w-full min-h-screen">
+      {/* TITLE , DESCRIPTION AND BUTTON */}
       <div className="space-y-6 py-4 justify-center items-center">
         <h1 className="md:text-5xl text-3xl  font-bold uppercase">
           Web Magnetism
         </h1>
+
         <p className="font-thin md:w-1/3 h-3/6 mx-auto text-center capitalize lg:text-lg">
           Transforming Businesses with unique Web design and strategic digital
           marketing for impactful online visibility.
         </p>
+
         <button
           type="button"
           className="uppercase border border-white bg-custom-gradient rounded-full w-fit mx-auto p-2 px-5 flex flex-row gap-2"
@@ -18,6 +21,8 @@ const HeroSection = () => {
           <GoArrowUpRight className="mt-1" />
         </button>
       </div>
+
+      {/* SVG */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
         <svg
           className="relative block w-full h-full"

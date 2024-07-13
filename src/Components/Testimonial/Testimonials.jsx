@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import TestimonialData from "./Testimonial.json";
 
-
 const Testimonials = () => {
   const renderStars = (rating) => {
     const fullStars = Math.floor(rating);
@@ -41,9 +40,9 @@ const Testimonials = () => {
               alt=""
               className=" rounded-full mx-auto"
             />
-            <div className="text-center">
-              {renderStars(testimonial.rating)}
-            </div>
+
+            <div className="text-center">{renderStars(testimonial.rating)}</div>
+
             <p className="text-gray-600 text-left text-sm lg:text-lg">
               {testimonial.description}
             </p>

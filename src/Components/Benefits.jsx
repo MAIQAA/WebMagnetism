@@ -5,10 +5,8 @@ import globe from "../assets/Globe.svg";
 const Benefits = () => {
   return (
     <div className="relative min-w-screen bg-gradient-to-r from-[#7C5FEB] to-[rgb(222,131,138)]">
-      <svg
-        viewBox="0 0 1263 120"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      {/* SVG */}
+      <svg viewBox="0 0 1263 120" xmlns="http://www.w3.org/2000/svg">
         <path
           fill="#f3f4f6"
           d="M 0 0 C 125.1 0 291.9 52 417 52 L 417 52 L 417 0 L 0 0 Z"
@@ -25,19 +23,22 @@ const Benefits = () => {
           strokeWidth="0"
         ></path>
       </svg>
+
       <div className="bg-cover !bg-custom-image">
         <div className="flex flex-col lg:flex-row justify-center p-6 md:p-20 gap-6">
-
+          {/* TITLE , DESCRIPTION AND BUTTON */}
           <div className="text-left text-white">
             <h1 className="text-4xl uppercase font-semibold mb-5">
               Our bespoke website include the fllowing
             </h1>
+
             <p className="font-thin lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
               omnis cumque quae harum totam fuga, commodi inventore aliquam
               eveniet aperiam fugiat reiciendis a magnam adipisci exercitationem
               atque assumenda culpa consequuntur.
             </p>
+
             <button
               type="button"
               className="mt-5 uppercase border border-white bg-custom-gradient rounded-full w-fit p-2 px-4 flex flex-row gap-2"
@@ -47,9 +48,9 @@ const Benefits = () => {
             </button>
           </div>
 
-
+          {/* CARDS */}
           <div className="flex flex-col gap-10">
-
+            {/* CARD1 */}
             <div className="bg-white rounded-lg p-6 w-full gap-4 grid mx-auto">
               <img src={globe} className="w-10 h-10" alt="Icon 2" />
               <h2 className="text-lg font-semibold capitalize lg:text-xl">
@@ -63,6 +64,7 @@ const Benefits = () => {
               </p>
             </div>
 
+            {/* CARD2 */}
             <div className="bg-white rounded-lg p-6 w-full gap-4 grid mx-auto">
               <img src={globe} className="w-10 h-10" alt="Icon 2" />
               <h2 className="text-lg font-semibold capitalize lg:text-xl">
@@ -76,6 +78,7 @@ const Benefits = () => {
               </p>
             </div>
 
+            {/* CARD3 */}
             <div className="bg-white rounded-lg p-6 w-full gap-4 grid mx-auto">
               <img src={globe} className="w-10 h-10" alt="Icon 2" />
               <h2 className="text-lg font-semibold capitalize lg:text-xl">

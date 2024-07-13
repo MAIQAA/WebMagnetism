@@ -5,22 +5,27 @@ const Welcome = () => {
   return (
     <div className="w-3/4 mx-auto flex flex-col md:flex-row py-6 justify-center gap-6">
       <div className="grid gap-6 flex-1">
+
+        {/* TITLE */}
         <h1 className="text-3xl capitalize font-semibold text-center md:text-left">
           Welcome to Web Magnetism
         </h1>
 
+        {/* PARA 1 */}
         <div className="flex flex-col gap-3 text-center md:text-left lg:text-lg">
           <p className="font-thin">
             Your hub for bespoke web design and digital marketing success. We
             seamlessly merge creativity and SEO expertise to craft visually
             stunning websites that magnetize audiences.
           </p>
+          {/* PARA2 */}
           <p className="font-thin">
             Our digital marketing, from SEO mastery to impactful campaigns,
             ensures your brand`s resonance online. At Web Magnetism, we`re not
             just designers; we`re digital architects, sculpting unique online
             experiences that elevate your brand.
           </p>
+          {/* PARA 3 */}
           <p className="font-thin">
             Navigate the digital landscape with confidence – choose Web
             Magnetism for tailored web design and strategic digital marketing,
@@ -28,6 +33,7 @@ const Welcome = () => {
           </p>
         </div>
 
+        {/* BUTTON */}
         <button
           type="button"
           className="uppercase border border-white text-white bg-custom-gradient-hero rounded-full w-fit p-2 px-5 flex flex-row gap-2 mx-auto md:mx-0"
@@ -37,6 +43,7 @@ const Welcome = () => {
         </button>
       </div>
 
+      {/* IMAGE */}
       <div className="items-center justify-center flex-1">
         <img
           src={welcome}

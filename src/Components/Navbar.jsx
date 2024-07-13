@@ -10,7 +10,10 @@ const Navbar = () => {
   return (
     <nav className="z-20 absolute w-full border-gray-200 px-5 bg-transparent">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+        {/* LOGO */}
         <img src={logo} className="h-5" />
+
+        {/* BUTTON TO TOGGLEL NAVBAR */}
         <button
           onClick={toggleNavbar}
           type="button"
@@ -19,6 +22,8 @@ const Navbar = () => {
           aria-expanded={isOpen ? "true" : "false"}
         >
           <span className="sr-only">Open main menu</span>
+
+          {/* SVG */}
           <svg
             className="w-5 h-5"
             aria-hidden="true"
@@ -35,6 +40,8 @@ const Navbar = () => {
             />
           </svg>
         </button>
+
+        {/* IF BUTTONN IS PRESSED DISPLAY:BLOCK ELSE DISPLAY:HIDDEN */}
         <div
           className={`${isOpen ? "block" : "hidden"} w-full`}
           id="navbar-default"
@@ -49,6 +56,7 @@ const Navbar = () => {
                 Home
               </a>
             </li>
+
             <li>
               <a
                 href="#"
@@ -57,11 +65,13 @@ const Navbar = () => {
                 About
               </a>
             </li>
+
             <li>
               <a href="#" className="block py-2 px-5 rounded hover:bg-gray-100">
                 Services
               </a>
             </li>
+
             <li>
               <a href="#" className="block py-2 px-5 rounded hover:bg-gray-100">
                 Contact

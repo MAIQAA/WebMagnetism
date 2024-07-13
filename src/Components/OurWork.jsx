@@ -5,8 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const OurWork = () => {
   return (
     <div className="p-6 md:p-20">
-
-     {/* Heading */}
+      {/* Heading */}
       <h1 className="flex text-2xl md:text-4xl  capitalize font-semibold">
         Our Work
       </h1>
@@ -21,8 +20,8 @@ const OurWork = () => {
         </p>
 
         <div className="flex flex-col justify-between md:w-2/5">
+          {/* EXTRA DIV WHICH GROWS TO TAKE EXTRA SPACE SO THAT THE BUTTON STAYS AT THE BOTTOM RIGHT */}
           <div className="flex-grow"></div>{" "}
-          {/* This ensures the button stays at the bottom */}
           <div className="grid justify-end">
             <button
               type="button"
@@ -40,22 +39,34 @@ const OurWork = () => {
         {/* CARD1 */}
         <div className="text-left space-y-3 w-full">
           <img src={work3} alt="" className="w-full h-auto" />
+
           <h1 className="uppercase lg:text-lg">Redesign of b2b website</h1>
-          <p className="text-xs lg:text-base font-light capitalize">Web Design</p>
+
+          <p className="text-xs lg:text-base font-light capitalize">
+            Web Design
+          </p>
         </div>
 
         {/* CARD2 */}
         <div className="text-left space-y-3 w-full">
           <img src={work2} alt="" className="w-full h-auto" />
+
           <h1 className="uppercase lg:text-lg">Mobile Application</h1>
-          <p className="text-xs lg:text-base font-light capitalize">App development</p>
+
+          <p className="text-xs lg:text-base font-light capitalize">
+            App development
+          </p>
         </div>
 
         {/* CARD3 */}
         <div className="text-left space-y-3 w-full">
           <img src={work1} alt="" className="w-full h-auto" />
+
           <h1 className="uppercase lg:text-lg">E-commerce</h1>
-          <p className="text-xs lg:text-base font-light capitalize">Web Development</p>
+
+          <p className="text-xs lg:text-base font-light capitalize">
+            Web Development
+          </p>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import icon3 from "../assets/icon3.svg";
 const WhyChooseUs = () => {
   return (
     <div className="relative flex flex-col items-center justify-center bg-gray-100 pb-10">
+      {/* SVG */}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
         <path
           fill="white"
@@ -12,13 +13,16 @@ const WhyChooseUs = () => {
           d="M0,224L60,197.3C120,171,240,117,360,90.7C480,64,600,64,720,64C840,64,960,64,1080,90.7C1200,117,1320,171,1380,197.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
         ></path>
       </svg>
+
       <div className="max-w-screen-lg mx-auto px-0 md:mx-6 bg-gray-100">
+        {/* TITLE */}
         <h1 className="font-semibold capitalize text-3xl text-center mb-10">
           Why choose us
         </h1>
 
         {/* SVG Container */}
         <foreignObject x="50" y="50" width="900" height="300">
+          {/* CARDS */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
             {/* Card 1 */}
             <div className="bg-white rounded-lg p-6">

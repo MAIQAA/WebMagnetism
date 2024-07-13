@@ -4,8 +4,8 @@ import insight3 from "../assets/insight3.png";
 const Insight = () => {
   return (
     <div className="relative my-14">
-
       <div className="relative w-full bg-custom-insight">
+        {/* SVG */}
         <svg
           width="100%"
           height="100%"
@@ -19,33 +19,40 @@ const Insight = () => {
           ></path>
         </svg>
 
-        <h1 className="text-white text-2xl md:text-4xl font-semibold text-center capitalize">Latest Insights</h1>
+        {/* TITLE */}
+        <h1 className="text-white text-2xl md:text-4xl font-semibold text-center capitalize">
+          Latest Insights
+        </h1>
 
+        {/* CARDS IMAGES */}
         <div className="mt-7 px-6 md:px-20 gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
           <div className="w-full">
             <img src={insight1} alt="" className="w-full h-auto" />
           </div>
+
           <div className="w-full">
             <img src={insight2} alt="" className="w-full h-auto" />
           </div>
+
           <div className="w-full">
             <img src={insight3} alt="" className="w-full h-auto" />
           </div>
         </div>
       </div>
 
-{/* CARDS */}
+      {/* CARDS CONTENT */}
       <div className="mt-4 px-6 md:px-20 gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
-
-{/* CARD1 */}
+        {/* CARD1 */}
         <div className="p-4 grid gap-4 shadow-lg">
           <h1 className="text-xl font-semibold capitalize">
             Websites accesibility and why it matters
           </h1>
+
           <p>
             Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus
             vulputate aen dolor sit amet conss ...
           </p>
+
           <div className="flex justify-between lg:text-lg">
             <p className="font-thin">25.01.2024</p>
             <p className="text-sm underline bg-clip-text text-transparent bg-gradient-to-r from-purple-950 via-pink-500 to-orange-300">
@@ -54,15 +61,17 @@ const Insight = () => {
           </div>
         </div>
 
-{/* CARD2 */}
+        {/* CARD2 */}
         <div className="p-4 grid gap-4 shadow-lg">
           <h1 className="text-xl font-semibold capitalize">
             Websites accesibility and why it matters
           </h1>
+
           <p>
             Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus
             vulputate aen dolor sit amet conss ...
           </p>
+
           <div className="flex justify-between lg:text-lg">
             <p className="font-thin">25.01.2024</p>
             <p className="text-sm underline bg-clip-text text-transparent bg-gradient-to-r from-purple-950 via-pink-500 to-orange-300">
@@ -71,15 +80,17 @@ const Insight = () => {
           </div>
         </div>
 
-{/* CARD3 */}
+        {/* CARD3 */}
         <div className="p-4 grid gap-4 shadow-lg">
           <h1 className="text-xl font-semibold capitalize">
             Websites accesibility and why it matters
           </h1>
+
           <p>
             Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus
             vulputate aen dolor sit amet conss ...
           </p>
+
           <div className="flex justify-between lg:text-lg">
             <p className="font-thin">25.01.2024</p>
             <p className="text-sm underline bg-clip-text text-transparent bg-gradient-to-r from-purple-950 via-pink-500 to-orange-300">
@@ -87,7 +98,6 @@ const Insight = () => {
             </p>
           </div>
         </div>
-        
       </div>
     </div>
   );
