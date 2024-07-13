@@ -1,0 +1,22 @@
+[
+    {
+      "img": "./src/assets/profile3.png",
+      "name": "John Smith, Director",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies turpis et justo vulputate, sit amet sodales leo auctor.",
+      "rating": 5
+    },
+    {
+      "img": "./src/assets/profile2.png",
+      "name": "Maria Bend, Director",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies turpis et justo vulputate, sit amet sodales leo auctor.",
+      "rating": 5
+    },
+    {
+        "img": "./src/assets/profile1.png",
+        "name": "Franky, Director",
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies turpis et justo vulputate, sit amet sodales leo auctor.",
+        "rating": 5
+      }
+
+  ]
+  
