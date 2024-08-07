@@ -12,9 +12,9 @@ const Footer = () => {
     <div className="px-6 md:px-20 pt-12 pb-7 bg-darket-purple ">
       {/* BUTTONS */}
       <div className="flex flex-col gap-6 md:flex-row justify-between">
-        <div className="flex flex-row  gap-2 bg-custom-gradient-hero rounded-full px-7 py-3">
+        <div className="flex flex-row items-center gap-2 bg-custom-gradient-hero text-white rounded-full px-7 py-3">
           <img src="/src/assets/wm.png" alt="" className="w-1/12" />
-          <p className="uppercase text-sm font-semibold">Web Magnetism</p>
+          <p className="uppercase text-sm font-semibold ">Web Magnetism</p>
         </div>
 
         <div className="flex flex-row items-center gap-2 bg-custom-gradient-hero text-white rounded-full px-7 py-3">
